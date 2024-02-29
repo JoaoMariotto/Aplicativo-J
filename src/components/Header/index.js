@@ -6,7 +6,7 @@ import {
   TouchableOpacity,
   ScrollView,
 } from "react-native";
-import { Feather, StyleSheet } from "@expo/vector-icons";
+import { Feather } from "@expo/vector-icons";
 import Logo from "../../assets/instagram-logo.png";
 
 export default function Header(){

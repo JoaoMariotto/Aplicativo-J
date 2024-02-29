@@ -1,19 +1,22 @@
-import { View } from "react-native";
-import Header from "./src/components/Header";
-import Stories from "./src/components/Stories"
-
+import { View, StyleSheet} from "react-native";
+import PessoaProfile from "./src/assets/yag.jpg"
+import InfoProfile from "./src/components/InfoProfile";
 
 export default function App() {
   return (
     <View
       style={{
-        flex: 1,
         marginVertical: 32,
         marginHorizontal: 16,
       }}
     >
-     <Header />
-      <Stories/>
+      <InfoProfile 
+      image={PessoaProfile}
+      publi={5} 
+      followers={367} 
+      following={200}
+      descricao={"João"}
+      />
     </View>
   );
 }
