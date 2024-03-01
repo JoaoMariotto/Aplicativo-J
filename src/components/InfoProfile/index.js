@@ -5,7 +5,7 @@ export default function InfoProfile({
     publi, 
     followers, 
     following, 
-    descricao }) {
+    }) {
     return(
     <View style={styles.headerProfile}>
         <View>
@@ -33,7 +33,7 @@ export default function InfoProfile({
     </View>
     
     
-    )
+    );
 }
 
 const styles = StyleSheet.create({

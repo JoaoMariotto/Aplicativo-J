@@ -1,6 +1,8 @@
 import { View, StyleSheet} from "react-native";
 import PessoaProfile from "./src/assets/yag.jpg"
 import InfoProfile from "./src/components/InfoProfile";
+import MyPosts from './src/components/MyPosts';
+import Post from './src/assets/post-example.png';
 
 export default function App() {
   return (
@@ -15,8 +17,17 @@ export default function App() {
       publi={5} 
       followers={367} 
       following={200}
-      descricao={"João"}
       />
+      <MyPosts image={Post}/>
     </View>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    marginVertical: 35,
+    marginHorizontal: 16,
+  },
+});
