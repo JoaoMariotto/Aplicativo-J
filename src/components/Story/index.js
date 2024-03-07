@@ -2,7 +2,7 @@ import { TouchableOpacity, Image, StyleSheet } from 'react-native';
 export default function Story({image}) {
     return(
         <TouchableOpacity>
-          <Image style={style.story} source={image} />
+          <Image style={styles.story} source={image} />
         </TouchableOpacity>
     );
 }

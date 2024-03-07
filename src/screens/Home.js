@@ -1,9 +1,9 @@
 import { View } from "react-native";
-import Header from "./src/components/Header";
-import Stories from "./src/components/Stories"
+import Header from "../components/Header";
+import Stories from "../components/Stories"
 
 
-export default function App() {
+export default function Home() {
   return (
     <View
       style={{
